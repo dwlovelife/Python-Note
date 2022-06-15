@@ -4,7 +4,7 @@ def foo():
 def bar():
     pass
 
-if __name__ == "__main__":
+if __name__ == "__main__" :
     print("foo")
     foo()
     print("bar")

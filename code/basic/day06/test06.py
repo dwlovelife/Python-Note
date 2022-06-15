@@ -5,7 +5,6 @@ python变量的作用域共有四种：
 全局作用域（G）
 内置作用域 [即内置函数所在的模块范围]（B）
 变量在作用域中查找的顺序是 L -> E -> G -> B
-
 """
 global e #全局作用域
 def foo():
@@ -17,11 +16,10 @@ def foo():
         print(a)
         print(b) #局部作用域
         print(c)
-        nonlocal x 
         x = a
         print(x)
     bar()
-    print(x)
+    print("x:結果%d"%x)
  
 
 
